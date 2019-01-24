@@ -1,0 +1,45 @@
+@import url('home.css');
+
+#noticias{
+    margin-top: 25px;
+}
+
+#noticias .articulo{
+    display: block;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+#noticias article img{
+    border-radius: 5px;
+}
+
+#noticias h3{
+    text-align: center;
+}
+
+#noticias .card-body{
+    border-top: 2px solid gray;
+}
+
+#noticias .card-footer{
+    border-top: 2px solid gray;
+}
+
+
+
+@media (min-width:1024px){
+    #noticas .articulo{
+        width: 750px;
+    }
+}
+
+@media (min-width:720px){
+    #noticias article{
+        overflow: hidden;
+    }
+    #noticas img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
